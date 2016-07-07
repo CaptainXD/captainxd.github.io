@@ -4,6 +4,10 @@
 body {
   background-image: url('../img/space_bg.jpg');
 }
+h1 {
+  font-family: Baron Neue, sans-serif;
+  size: 200%;
+}
 #card {
   background: white;
   position: absolute;
