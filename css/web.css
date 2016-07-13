@@ -43,7 +43,8 @@ h1 {
 
 #main {
     margin: 0 auto;
-    width: 80%
+    width: 80%;
+    height: 150px;
 }
 
 #main p {
@@ -64,9 +65,17 @@ h1 {
 }
 
 #footer {
-    display: none;
+    text-align: center;
 }
 
 #footer li {
     font-family: Open Sans;
+    display: inline;
+}
+
+#footer li a:link, #footer li a:visited {
+    color: #a3a3a3;
+    font-size: 12px;
+    margin: 0 10px;
+    text-decoration: none;
 }
