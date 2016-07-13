@@ -82,6 +82,7 @@ h1 {
 
 @media screen and (max-width: 720px) {
     html {
+        background-color: white;
         background-image: url('../img/space_bg_mobile.png'); 
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -89,6 +90,7 @@ h1 {
     }
     
     #card {
+        background: none;
         width: 100%;
         box-shadow: none;
         box-shadow: none;
