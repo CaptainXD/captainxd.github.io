@@ -96,3 +96,13 @@ h1 {
         box-shadow: none;
     }
 }
+
+@media screen and (min-width: 1821px) {
+    html {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+        background-size: 100% 100%;
+    }
+}
