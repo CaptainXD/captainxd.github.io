@@ -1,19 +1,10 @@
-function loadJSON(data) {
-    var index1 = Math.floor(Math.random() * data.bio.length);
-    var index2 = Math.floor(Math.random() * data.bio.length);
-    
-    while(index1 == index2) {
-        index2 = Math.floor(Math.random() * data.bio.length);
+function randomize(data) {
+    var index;
+    for(var i = 0; i < 12; i++) {
+        index = Math.floor(Math.random() * data.tag.length);
+        console.log(index);
+        tagArray.push(data.tag[index]);
+        data.tag.splice(index, 1);
+        console.log(tagArray[i]);
     }
-    
-    $('#main p').html(
-        '<a href="javascript:void(0)">' +
-        data.bio[index1].title + 
-        '.</a> '
-    );
-    $('#main p').append(
-        '<a href="javascript:void(0)">' +
-        data.bio[index2].title + 
-        '.</a>'
-    );
 }
