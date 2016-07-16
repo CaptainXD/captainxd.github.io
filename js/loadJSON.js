@@ -1,6 +1,6 @@
 function randomize(data) {
     var index;
-    for(var i = 0; i < 12; i++) {
+    for(var i = 0; i < data.tag.length; i++) {
         index = Math.floor(Math.random() * data.tag.length);
         console.log(index);
         tagArray.push(data.tag[index]);
