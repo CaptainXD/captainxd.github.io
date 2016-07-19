@@ -6,7 +6,7 @@ var flipped;
 $(document).ready(function() {
     $.getJSON('../data.json', function(data) {
         init(data);
-        window.setInterval(checkFlip, 2500);
+        window.setInterval(checkFlip, 3000);
     });
 });
 
